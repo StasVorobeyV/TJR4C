@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Pillow" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="quiz_project.Bot.bot_start.*" />
+          <option value="quiz_project.quiz_app.bot_start.*" />
+          <option value="telegram_bot_project.telegram_bot_project.urls.*" />
+          <option value="telegram_bot_project.accounts.models.*" />
+          <option value="summernote.views" />
+          <option value="parsers.parser_standat.src" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

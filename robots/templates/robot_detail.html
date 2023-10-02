@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Robot Details</h1>
+    <div>
+        <p><strong>Serial:</strong> {{ robot.serial }}</p>
+        <p><strong>Model:</strong> {{ robot.model }}</p>
+        <p><strong>Version:</strong> {{ robot.version }}</p>
+        <!-- Добавьте другие детали робота, при необходимости -->
+    </div>
+{% endblock %}
