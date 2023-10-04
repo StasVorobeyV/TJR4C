@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from api.views import process_json
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', admin.site.urls),
     path('', include('customers.urls')),
     path('', include('orders.urls')),
     path('', include('robots.urls')),
+    path('api/process-json/', process_json)
 ]
-
